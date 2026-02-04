@@ -34,3 +34,7 @@ This root directory ('HSC401_CoralBleachingWebsite') contains folders and HTML f
 | HTML | file-description.html        |
 | CSS                    | file-description.CSS            |
 | Images           | file-description.file-type          |
+
+## Disclaimer:
+
+The information contained on this project and associated files is intended for educational purposes only and should not replace the advice of a physician or scientist. 
