@@ -1,0 +1,438 @@
+html, body {
+   margin:0;
+   padding:0;
+   max-height:100%;
+   max-width:100%;
+   overflow-x: hidden; /* Prevent horizontal scrolling because dead fish is offscreen */
+}
+
+#header, #content, #footer {
+	width: 100%;
+}
+
+#content {
+	margin-bottom:0px;
+}
+
+.wrapper {
+	width:56.25rem;
+	margin: 0 auto;
+	position:relative;
+	min-height:100%;
+}
+
+/* Accessibility START */
+.hidePlease {
+	text-indent:-312.5rem;
+	width:0.063rem;
+	height:0.063rem;
+}
+/* Accessibility END */
+
+/* Header START */
+#header {
+	height:6rem;
+}
+
+#header h1, #header ul {
+    position: absolute;
+    font-family:'Open Sans', sans-serif;
+}
+
+#header h1 {
+	font-size:1.875rem;
+	width:20%;
+	line-height:1.0;
+	font-weight:700;
+	color:#80C3C0;
+	margin-top:1.25rem;
+}
+
+#header ul {
+	position:absolute;
+	width:80%;
+    top: 1.938rem; 
+    right:-3.75rem; /* Helps align nav to wrapper */
+    font-weight: 300;
+    list-style: none;
+    margin: 0;
+    font-size:0.875rem; 
+    vertical-align:middle;
+}
+
+#header ul li {
+    display: inline-block;
+    margin-left: 1.875rem;  /* Spacing b/w nav items */
+    text-align:center;
+}
+
+#header ul li a {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    text-decoration: none;
+    border-radius: 0.625rem;
+    color:#183B5C; 
+}
+
+#header ul li a:hover, #header ul li.current a {
+    color:#80C3C0;
+   	text-decoration:underline;
+}
+
+#header ul li#special {
+	position: relative;
+	top: -0.625rem;
+}
+
+#header ul li#special a {
+	background-color:#80C3C0;
+	color:#ffffff;
+	padding: 0.563rem 0.438rem; 
+	top:0.625rem;
+	vertical-align:middle;
+}
+
+#header ul li#special a:hover {
+	background-color:white;
+	border:0.125rem solid #80C3C0;
+	color:#80C3C0;
+	text-decoration:none;
+}
+/* Header END */
+
+/*Content links START */
+
+#content a { 
+    color: #8EBFE7;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Content links END */
+
+/* Introduction START */
+#introHome {
+	height:auto;
+	position:relative;
+}
+
+#introHome .wrapper {
+	margin:0 auto;
+}
+
+#introHome h2 {
+	color:white;
+	font-size:4.063rem;
+	font-family:'Open Sans',sans-serif;
+	width:70%;
+	line-height:1.0;
+	font-weight:700;
+	position:absolute;
+	top:5rem;
+}
+
+ #introHome .subheading p {
+	color:white;
+	font-family: 'Gentium Basic', serif;
+	line-height:1.2;
+	font-weight:300;
+	font-size:2.375rem;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:0;
+	width:90%;
+	position:absolute;
+	top:14rem;
+}
+
+#introHomeImage1 {
+	background-image: url('../images/LiveReefBlack2.png');
+}
+
+#introHomeImage2 {
+	background-image: url('../images/DeadReefBlack2.png');
+}
+
+.iconthing {
+	width:60%;
+	height:auto;
+	top:3.125rem;
+	position:relative;
+	left:56.25rem;
+}
+
+.iconthing2 {
+	width:40%;
+	height:auto;
+	top:15.625rem;
+	position:relative;
+	left:25rem;
+}
+
+.iconthing3 {
+	width:50%;
+	height:auto;
+	top:0px;
+	position:relative;
+	left:-53.125rem;
+}
+
+.iconthingSkel {
+	width:60%;
+	height:auto;
+	top:3.125rem;
+	position:relative;
+	left:-18.75rem;
+}
+
+.iconthing2Skel {
+	width:40%;
+	height:auto;
+	top:15.625rem;
+	position:relative;
+	left:12.5rem;
+}
+
+.iconthing3Skel {
+	width:50%;
+	height:auto;
+	top:0px;
+	position:relative;
+	left:12.5rem;
+}
+
+#iconthing4, #iconthing5, #iconthing6, #iconthing7 {
+	width:5%;
+}
+
+#iconthing4 {
+	position:relative;
+	top:25rem;
+	right:46.875rem;
+}
+
+#iconthing5 {
+	position:relative;
+	top:16.875rem;
+	right:15.625rem;
+}
+
+#iconthing6 {
+	position:relative;
+	top:16.875rem;
+	left:62.5rem;
+}
+
+#iconthing7 {
+	position:relative;
+	top:16.875rem;
+	left:31.25rem;
+}
+
+#introHome h2#colourful, #introHome p#colourful{
+	color:#183B5C; /* h2 and p of the colourful coral image */
+}
+/* Introduction END */
+
+/* Section description p START */
+p.sectionDescription {
+	font-family:'Gentium Basic', serif;
+	font-size:1.75rem;
+	color:#183B5C;
+}
+/* Section description p END */
+
+/* learnMore START */
+#learnMore {
+	margin-top:5rem;
+	margin-bottom:5rem;
+	height:28.5rem;
+}
+
+#learnMore .wrapper2 {
+	border-top:0.063rem solid #ededed;
+}
+
+#learnMore h2 {
+	margin-top:4rem;
+	font-family:'Open sans', sans-serif;
+	font-weight:700;
+	color:#183B5C;
+	font-size:2.75rem;
+}
+
+.learnMore-type {
+	position:relative;
+	display: inline-block;
+    width:31%;
+    height:17.563rem;
+    vertical-align:top;
+	box-shadow: 0.938rem 1.25rem 6.25rem -3.75rem #888888;
+	border:0.063rem solid #ededed;
+	background: rgb(128,195,192);
+	background: linear-gradient(0deg, rgba(128,195,192,1) 2%, rgba(187,214,194,1) 100%);
+}
+
+.learnMore-type:nth-of-type(2), .learnMore-type:nth-of-type(3) {
+	margin-left:1.51rem;
+}
+
+.learnMore-type h3 {
+	position: relative;
+	font-family: 'Open sans', sans-serif;
+	font-weight:700;
+	font-size:2.188rem;
+	margin: 0 auto;
+	color:#ffffff;
+	width:80%;
+	padding:0.125rem 0;
+	margin-left:auto;
+	margin-right:auto;
+	padding:auto 0;
+	text-align:center;
+}
+
+.learnMore-type .learnMore-type-description p {
+	position:relative;
+	text-align:center;
+	color:#ffffff;
+	padding: 0.563rem 0.25rem; 
+	top:0;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1.25rem;
+}
+
+.learnMore-type-img {
+	width:90%;
+	padding:0 0;
+	margin:auto auto;
+	height:auto; 
+	object-fit: cover;
+}
+
+.uk-overlay-primary { /* Hover background */
+	background: rgb(128,195,192);
+	background: linear-gradient(0deg, rgba(128,195,192,1) 2%, rgba(187,214,194,1) 100%);
+}
+/* learnMore END */
+
+/* GetInvolved START */
+#getInvolvedBanner {
+	height:31.25rem;
+	background-color:black;
+	background-image:url('../images/BlueTangBanner.jpeg');
+	background-position: center;
+ 	background-repeat: no-repeat; 
+  	background-size: cover;
+  	position:relative;
+}
+
+#getInvolvedBanner #getInvolvedBannerDesc {
+	position:absolute;
+	top:9.375rem;	
+}
+
+#getInvolvedBannerDesc h2 {
+	font-family:'Open sans', sans-serif;
+	color:white;
+	font-weight:800;
+	font-size:2.75rem;
+	line-height:1.1;
+	text-shadow:0.063rem 0.063rem 0.625rem 0.625rem #ededed;
+}
+
+#getInvolvedBannerDesc p {
+	color:white;
+	font-family:'Gentium Basic', serif;
+	font-size:1.75rem;
+	margin-top:-0.625rem;
+	line-height:1.2;
+	text-shadow:0.063rem 0.063rem 0.625rem 0.625rem #ededed;
+}
+
+#getInvolvedBannerDesc a {
+	display:block;
+	border:0.063rem solid white;
+	border-radius:0.313rem;
+	width:32%;
+	text-align:center;
+	color:white;
+	font-size:1.25rem;
+	text-decoration:none;
+	font-weight:700;
+}
+
+#getInvolvedBannerDesc a:hover {
+	background-color:white;
+	color:#183B5C;
+	text-decoration:none;
+	font-weight:700;
+}
+/* GetInvolved END */
+
+/* References START */
+#references .wrapper  {
+	border-top:0.063rem solid #ededed;
+	padding:3rem 0;
+}
+
+#references h2 {
+	font-family:'open sans',sans-serif;
+	font-weight:700;
+	font-size:1.5rem;
+	color:#183B5C;
+}
+
+#references .wrapper ol {
+	padding: 1.25rem;
+	margin-top:0;
+}
+
+#references .wrapper ol li {
+	padding: 0.313rem;
+	margin-left: 2.188rem;
+}
+
+#references ul li a.uk-accordion-title {
+	color:#183B5C;
+	font-weight:300;
+}
+
+#references a.ref {
+	font-weight:300;
+	color:#fc8e5e;
+}
+
+#references a.ref:hover {
+	text-decoration:underline;
+}
+
+#references p {
+	font-size:.9rem;
+	margin-bottom:0;
+}
+/* References END */
+
+/* Footer START */
+#footer {
+	position:absolute;
+	margin-top:0;
+	text-align:center;
+	height:6.25rem;
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-weight:300;
+	font-size:0.875rem;
+	color:white;
+	background-color: #80C3C0;
+}
+
+#footer p {
+	position:absolute;
+	top:1.875rem;
+	width:56.25rem;
+	margin:auto;
+}
+/* Footer END */

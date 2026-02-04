@@ -1,0 +1,445 @@
+html, body {
+   margin:0;
+   padding:0;
+   max-height:100%;
+   max-width:100%;
+   overflow-x: hidden; /* Prevent horizontal scrolling because dead fish is offscreen */
+}
+
+#header, #content, #footer {
+	width: 100%;
+}
+
+#content {
+	margin-bottom:0px;
+}
+
+.wrapper {
+	width:56.25rem;
+	margin: 0 auto;
+	position:relative;
+	min-height:100%;
+}
+
+/* Accessibility START */
+.hidePlease {
+	text-indent:-312.5rem;
+	width:0.063rem;
+	height:0.063rem;
+}
+/* Accessibility END */
+
+/* Header START */
+#header {
+	height:6rem;
+}
+
+#header h1, #header ul {
+    position: absolute;
+    font-family:'Open Sans', sans-serif;
+}
+
+#header h1 {
+	font-size:1.875rem;
+	width:20%;
+	line-height:1.0;
+	font-weight:700;
+	color:#80C3C0;
+	margin-top:1.25rem;
+}
+
+#header ul {
+	position:absolute;
+	width:80%;
+    top: 1.938rem; 
+    right:-3.75rem; /* Helps align nav to wrapper */
+    font-weight: 300;
+    list-style: none;
+    margin: 0;
+    font-size:0.875rem; 
+    vertical-align:middle;
+}
+
+#header ul li {
+    display: inline-block;
+    margin-left: 1.875rem;  /* Spacing b/w nav items */
+    text-align:center;
+}
+
+#header ul li a {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    text-decoration: none;
+    border-radius: 0.625rem;
+    color:#183B5C; 
+}
+
+#header ul li a:hover, #header ul li.current a {
+    color:#80C3C0;
+   	text-decoration:underline;
+}
+
+#header ul li#special {
+	position: relative;
+	top: -0.625rem;
+}
+
+#header ul li#special a {
+	background-color:#80C3C0;
+	color:#ffffff;
+	padding: 0.563rem 0.438rem; 
+	top:0.625rem;
+	vertical-align:middle;
+}
+
+#header ul li#special a:hover {
+	background-color:white;
+	border:0.125rem solid #80C3C0;
+	color:#80C3C0;
+	text-decoration:none;
+}
+/* Header END */
+
+/*Content links START */
+#content a { 
+    color: #8EBFE7;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#introGI a:hover {
+    text-decoration: underline;
+}
+/* Content links END */
+
+/* Introduction START */
+#introGI {
+	height:auto;
+	position:relative;
+}
+
+#introGI .wrapper {
+	margin:0 auto;
+}
+
+#introGI h2 {
+	color:white;
+	font-size:4.063rem;
+	font-family:'Open Sans',sans-serif;
+	width:70%;
+	line-height:1.0;
+	font-weight:700;
+	position:absolute;
+	top:9rem;
+}
+
+#introGI h2 span {
+	font-style:italic;
+
+}
+
+ #introGI .subheading p {
+	color:white;
+	font-family: 'Gentium Basic', serif;
+	line-height:1.2;
+	font-weight:300;
+	font-size:2.375rem;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:0;
+	width:90%;
+	position:absolute;
+	top:13.5rem;
+}
+
+#introGIImage {
+	background-image: url('../images/GetInvolvedBanner.jpeg');
+}
+/* Introduction END */
+
+/* Sidebar START */
+.wrapper3 {
+	position:absolute;
+	width:25%;
+	height:1390px;
+	left:0;
+}
+
+#sidebar {
+	width:70%;
+	margin-top:5rem;
+	margin-right:1.563rem;
+	font-weight:300;
+	border-width:0.063rem;
+	border-style:solid;
+	border-color:#183B5C;
+	z-index: 999;
+}
+
+#sidebar h2 {
+	margin-left:1.25rem;
+	padding-top:0.938rem;
+	font-family:'Open sans',sans-serif;
+	color:#183B5C; 
+	font-weight:700;
+	font-size:1.25rem;
+}
+
+#sidebar ul {
+	list-style-type:none;
+	padding-left:0;
+	margin-left:1.25rem;
+	font-family:'Open sans',sans-serif;
+	font-size:1.063rem;
+	font-weight:300;
+}
+
+#sidebar ul li {
+	margin-bottom:0.938rem;
+}
+
+#sidebar ul li a {
+	font-weight:300;
+	color:#183B5C; 
+}
+
+#sidebar ul li a:hover {
+	color:#8EBFE7; 
+}
+/* Sidebar END */
+
+/* Wrapper2 START */
+.wrapper2 {
+	position:absolute;
+	width:79%;
+	height:100%;
+	right:0;
+}
+/* Wrapper2 END */
+
+/* Section description p START */
+p.sectionDescription {
+	font-family:'Gentium Basic', serif;
+	font-size:1.25rem;
+	color:#183B5C;
+}
+/* Section description p END */
+
+/* atHome START */
+#atHome {
+	height:45rem;
+	margin:5rem 0;
+}
+
+.atHome-type {
+	position:relative;
+	display: inline-block;
+    width:23%;
+    vertical-align: top;
+    background: rgb(128,195,192);
+	background: linear-gradient(0deg, rgba(128,195,192,1) 2%, rgba(187,214,194,1) 100%);
+}
+
+.atHome-type:hover {
+	transform: scale(1.3);
+	z-index:555555 !important;
+	box-shadow: 0.063rem 0.063rem 6.25rem -1.875rem #888888;
+}
+
+.atHome-type:nth-of-type(2n), .atHome-type:nth-of-type(3), .atHome-type:nth-of-type(7) {
+	margin-left:0.9rem;
+}
+
+.atHome-types-row:nth-of-type(1) {
+	margin-bottom:0.9rem;
+}
+
+.atHome-type .atHome-type-img {
+	position:relative;
+}
+
+.atHome-type .atHome-type-description h4 {
+	position: relative;
+	font-family: 'Open sans', sans-serif;
+	font-weight:700;
+	font-size:1.25rem;
+	width: 80%;
+	margin: 0 auto;
+	color:white;
+	padding:0.125rem 0;
+	margin:0.938rem auto;
+	border-bottom:0.063rem solid white;
+}
+
+.atHome-type .atHome-type-description p {
+	position: relative;
+	font-family:'Gentium Basic',serif;
+	width: 80%;
+	font-weight:300;
+	font-size:0.875rem;
+	line-height:1.2;
+	margin-top:0.313rem;
+	color:white;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* atHome END */
+
+/* Petitions START */
+#signPetitions {
+	margin-top:5rem;
+	margin-bottom:5rem;
+	height:31.875rem;
+}
+
+#signPetitions .wrapper2 {
+	border-top:0.063rem solid #ededed;
+}
+
+#signPetitions h3 {
+	margin-top:4rem;
+}
+
+#signPetitions h3, #atHome h3 {
+	font-family:'Open sans', sans-serif;
+	font-weight:700;
+	color:#183B5C;
+	font-size:2.75rem;
+}
+.petitions-type {
+	position:relative;
+	display: inline-block;
+    width:31%;
+    height:100%;
+    vertical-align: top;
+    background: white;
+	box-shadow: 0.938rem 1.25rem 6.25rem -3.75rem #888888;
+	border:0.063rem solid #ededed;
+}
+
+.petitions-type:hover {
+	transform: scale(1.1);
+	z-index:555555 !important;
+	box-shadow: 0.063rem 0.063rem 6.25rem -1.875rem #888888;
+}
+
+.petitions-type:nth-of-type(2), .petitions-type:nth-of-type(3) {
+	margin-left:1.1rem;
+}
+
+.petition-type-description h4 {
+	position: relative;
+	font-family: 'Open sans', sans-serif;
+	font-weight:700;
+	font-size:1.25rem;
+	margin: 0 auto;
+	color:#183B5C;
+	width:80%;
+	padding:0.125rem 0;
+	margin-top:1.375rem;
+	margin-bottom:0.938rem;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:0.063rem solid white;
+	text-align:center;
+}
+
+.petitions-type .petition-type-description a {
+	position:relative;
+	text-align:center;
+	background-color:#80C3C0;
+	color:#ffffff;
+	padding: 0.563rem 0.25rem; 
+	top:0;
+	border-radius:0.625rem;
+	display:block;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1.25rem;
+}
+
+#signPetitions .petition-type-description a {
+	color:white;
+	font-weight:400;
+}
+
+#signPetitions .petition-type-description a:hover {
+	color:#80C3C0;
+	border:0.063rem solid #80C3C0;
+	background-color:white;
+}
+
+.petition-type-img {
+	width:100%;
+	padding:0 0;
+	height:40%; 
+	object-fit: cover;
+}
+/* Petitions END */
+
+/* References START */
+#references .wrapper  {
+	border-top:0.063rem solid #ededed;
+	padding:3rem 0;
+}
+
+#references h2 {
+	font-family:'open sans',sans-serif;
+	font-weight:700;
+	font-size:1.5rem;
+	color:#183B5C;
+}
+
+#references .wrapper ol {
+	padding: 1.25rem;
+	margin-top:0;
+}
+
+#references .wrapper ol li {
+	padding: 0.313rem;
+	margin-left: 2.188rem;
+}
+
+#references ul li a.uk-accordion-title {
+	color:#183B5C;
+	font-weight:300;
+}
+
+#references a.ref {
+	font-weight:300;
+	color:#fc8e5e;
+}
+
+#references a.ref:hover {
+	text-decoration:underline;
+}
+
+#references p {
+	font-size:.9rem;
+	margin-bottom:0;
+}
+/* References END */
+
+/* Footer START */
+#footer {
+	position:absolute;
+	margin-top:0;
+	text-align:center;
+	height:6.25rem;
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-weight:300;
+	font-size:0.875rem;
+	color:white;
+	background-color: #80C3C0;
+}
+
+#footer p {
+	position:absolute;
+	top:1.875rem;
+	width:56.25rem;
+	margin:auto;
+}
+/* Footer END */
