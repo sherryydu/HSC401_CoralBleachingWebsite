@@ -1,4 +1,4 @@
-# Project name: Coral Bleaching Website
+# Project name: HSC401 Coral Bleaching Website
 
 **Date created:** Nov 21, 2021
 
