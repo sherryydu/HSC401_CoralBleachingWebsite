@@ -14,6 +14,10 @@ I created a website to the general public about the effects of coral bleaching. 
 
 This root directory ('HSC401_CoralBleachingWebsite') contains folders and HTML files related to this project for the website's functionality.
 
+## How to use
+
+Download the root directory ('HSC401_CoralBleachingWebsite') and open the 'index.html' page in your chosen web browser (e.g., Google Chrome, Safari, etc.). The website should be fully functional.
+
 ## File structure:
 
 | Directory       | Description                                         |
