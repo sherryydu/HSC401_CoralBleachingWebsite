@@ -10,7 +10,7 @@
 
 ## Project description/purpose
 
-I created a website to the general public about the effects of coral bleaching. This project was completed in fulfillment of the requirements of HSC401H5: Health and Science Communication Design in Fall 2021.
+I created a website to inform the general public about the effects of coral bleaching. This project was completed in fulfillment of the requirements of HSC401H5: Health and Science Communication Design in Fall 2021.
 
 This root directory ('HSC401_CoralBleachingWebsite') contains folders and HTML files related to this project for the website's functionality.
 
