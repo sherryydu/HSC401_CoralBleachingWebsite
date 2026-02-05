@@ -16,6 +16,8 @@ This root directory ('HSC401_CoralBleachingWebsite') contains folders and HTML f
 
 ## How to use:
 
+This project is intended to be run locally on your desktop.
+
 1. Download the root directory ('HSC401_CoralBleachingWebsite')
 2. Open the 'index.html' page in your chosen web browser (e.g., Google Chrome, Safari, etc.).
 3. Enjoy!
