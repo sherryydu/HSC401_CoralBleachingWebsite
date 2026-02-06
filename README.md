@@ -4,7 +4,7 @@
 
 **Created by:** Sherry Du
 
-**Date uploaded:** Feb 3, 2026
+**Date uploaded:** Feb 5, 2026
 
 **Uploaded by:** Sherry Du
 
@@ -16,8 +16,9 @@ This root directory ('HSC401_CoralBleachingWebsite') contains folders and HTML f
 
 ## How to use:
 
-This project is intended to be run locally on your desktop.
+View the website here: https://sherryydu.github.io/HSC401_CoralBleachingWebsite/index.html
 
+Alternatively, you can view the website locally by following these steps:
 1. Download the root directory ('HSC401_CoralBleachingWebsite')
 2. Open the 'index.html' page in your chosen web browser (e.g., Google Chrome, Safari, etc.).
 3. Enjoy!
